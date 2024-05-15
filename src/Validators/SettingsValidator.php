@@ -1,9 +1,9 @@
 <?php
 
-namespace Madeyedeer\AvatarTools\Validators;
+namespace MadEyeDeer\AvatarTools\Validators;
 
 use Flarum\Foundation\AbstractValidator;
-use Madeyedeer\AvatarTools\ExtensionSettings;
+use MadEyeDeer\AvatarTools\ExtensionSettings;
 
 class SettingsValidator extends AbstractValidator
 {

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Madeyedeer\AvatarTools;
+namespace MadEyeDeer\AvatarTools;
 use Flarum\Settings\Event\Saving;
-use Madeyedeer\AvatarTools\Listeners\SettingsSavingListener;
-use Madeyedeer\AvatarTools\ServiceProviders\AvatarServiceProvider;
+use MadEyeDeer\AvatarTools\Listeners\SettingsSavingListener;
+use MadEyeDeer\AvatarTools\ServiceProviders\AvatarServiceProvider;
 
 use Flarum\Extend;
 

@@ -1,9 +1,9 @@
 <?php
-namespace Madeyedeer\AvatarTools\ServiceProviders;
+namespace MadEyeDeer\AvatarTools\ServiceProviders;
 
 use Flarum\Foundation\AbstractServiceProvider;
 use Flarum\User\AvatarValidator;
-use Madeyedeer\AvatarTools\Validators\AvatarValidator as CustomAvatarValidator;
+use MadEyeDeer\AvatarTools\Validators\AvatarValidator as CustomAvatarValidator;
 
 class AvatarServiceProvider extends AbstractServiceProvider
 {

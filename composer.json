@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Madeyedeer\\AvatarTools\\": "src/"
+            "MadEyeDeer\\AvatarTools\\": "src/"
         }
     },
     "extra": {
@@ -54,7 +54,7 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "Madeyedeer\\AvatarTools\\Tests\\": "tests/"
+            "MadEyeDeer\\AvatarTools\\Tests\\": "tests/"
         }
     },
     "scripts": {

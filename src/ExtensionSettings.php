@@ -1,5 +1,5 @@
 <?php
-namespace Madeyedeer\AvatarTools;
+namespace MadEyeDeer\AvatarTools;
 
 class ExtensionSettings
 {

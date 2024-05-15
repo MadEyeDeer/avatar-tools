@@ -1,5 +1,5 @@
 <?php
-namespace Madeyedeer\AvatarTools\Validators;
+namespace MadEyeDeer\AvatarTools\Validators;
 
 use Illuminate\Validation\Factory;
 use Intervention\Image\ImageManager;
@@ -7,7 +7,7 @@ use Illuminate\Contracts\Translation\Translator as TranslatorInterface;
 
 use Flarum\User\AvatarValidator as FlarumAvatarValidator;
 use Flarum\Settings\SettingsRepositoryInterface;
-use Madeyedeer\AvatarTools\ExtensionSettings;
+use MadEyeDeer\AvatarTools\ExtensionSettings;
 
 class AvatarValidator extends FlarumAvatarValidator
 {

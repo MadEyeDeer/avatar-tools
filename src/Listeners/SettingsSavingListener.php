@@ -1,11 +1,11 @@
 <?php
 
-namespace Madeyedeer\AvatarTools\Listeners;
+namespace MadEyeDeer\AvatarTools\Listeners;
 
 use Flarum\Settings\Event\Saving;
 use Illuminate\Validation\ValidationException;
-use Madeyedeer\AvatarTools\Validators\SettingsValidator;
-use Madeyedeer\AvatarTools\ExtensionSettings;
+use MadEyeDeer\AvatarTools\Validators\SettingsValidator;
+use MadEyeDeer\AvatarTools\ExtensionSettings;
 
 class SettingsSavingListener
 {
