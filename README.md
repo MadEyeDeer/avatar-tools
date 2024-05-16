@@ -1,6 +1,8 @@
 # Avatar Tools
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/madeyedeer/avatar-tools.svg)](https://packagist.org/packages/madeyedeer/avatar-tools) [![Total Downloads](https://img.shields.io/packagist/dt/madeyedeer/avatar-tools.svg)](https://packagist.org/packages/madeyedeer/avatar-tools) [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/adrianmccay)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/madeyedeer/avatar-tools.svg)](https://packagist.org/packages/madeyedeer/avatar-tools) [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/adrianmccay) ![Static Badge](https://img.shields.io/badge/flarum-1.8.5-%23e7672e?logo=flarum)
+
+
 
 Welcome to Avatar Tools [Flarum](http://flarum.org) extension! Yes, it only does one thing... for now. This extension allows you to change the avatar upload file size limit directly from the admin settings, so you can permit larger files to be uploaded. 
 
@@ -21,6 +23,8 @@ composer update madeyedeer/avatar-tools
 php flarum migrate
 php flarum cache:clear
 ```
+
+> Note: Some releases may require a version to be specified when updating, so check the release notes on the [Flarum forum](https://discuss.flarum.org/d/NO_LINK_YET) for specific instructions.
 
 ## Usage
 Change the avatar upload file size limit in admin settings by entering a value in MB.
