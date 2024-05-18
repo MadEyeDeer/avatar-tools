@@ -5,7 +5,6 @@ namespace MadEyeDeer\AvatarTools\Listeners;
 use Flarum\Settings\Event\Saving;
 use Illuminate\Validation\ValidationException;
 use MadEyeDeer\AvatarTools\Validators\SettingsValidator;
-use MadEyeDeer\AvatarTools\ExtensionSettings;
 
 class SettingsSavingListener
 {
