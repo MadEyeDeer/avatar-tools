@@ -14,13 +14,11 @@ body:
     attributes:
       label: Problem description
       description: A clear and concise description of what the problem is. For example, "I'm always frustrated when [...]".
-      required: true
 
   - type: textarea
     attributes:
       label: Desired solution
       description: A clear and concise description of what you want to happen. If possible, describe it as a user story (e.g., "As a [type of user], I want [a feature] so that [benefit].").
-      required: true
 
   - type: textarea
     attributes:
