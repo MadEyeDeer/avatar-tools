@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Nothing yet. Let me know if you have any suggestions!
+- Add permissions to allow different values for different user groups.
 
 ## [0.1.1] - 2024-05-16
 ### Added
